@@ -1,14 +1,36 @@
 {
-    "name": "app-service-hello-world",
-    "description": "Simple Hello World Node.js sample for Azure App Service",
-    "version": "0.0.1",
-    "private": true,
-    "license": "MIT",
-    "author": "Microsoft",
-    "engines": {
-        "node": ">=6.9.1"
-    },
-    "scripts": {
-        "start": "node index.js"
-    }
+  "name": "blrtcc-server",
+  "version": "1.0.0",
+  "description": "blrt backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "parse",
+    "blrt"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "analytics-node": "^2.1.0",
+    "app-module-path": "^1.0.6",
+    "body-parser": "^1.15.0",
+    "cookie-parser": "^1.4.1",
+    "crypto": "0.0.3",
+    "ejs": "^2.4.1",
+    "express": "^4.13.4",
+    "express-session": "^1.13.0",
+    "express-useragent": "^0.2.4",
+    "mandrill": "^0.1.0",
+    "moment": "^2.13.0",
+    "parse-express-cookie-session": "0.0.3",
+    "parse-server": "^2.2.7",
+    "stripe": "^4.5.0",
+    "tracer": "^0.8.3",
+    "twilio": "^2.9.1",
+    "underscore": "^1.8.3",
+    "when": "~2.4.0"
+  }
 }
