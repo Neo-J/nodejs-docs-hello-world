@@ -8,7 +8,7 @@
     "start": "node index.js"
   },
   "engines": {              
-    "node": "8.11.2"
+    "node": "8.11.1"
   },
   "keywords": [
     "parse",
@@ -29,7 +29,7 @@
     "mandrill": "^0.1.0",
     "moment": "^2.13.0",
     "parse-express-cookie-session": "0.0.3",
-    "parse-server": "^2.8.4",
+    "parse-server": "^2.2.7",
     "stripe": "^4.5.0",
     "tracer": "^0.8.3",
     "twilio": "^2.9.1",
